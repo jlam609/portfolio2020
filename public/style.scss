@@ -1,0 +1,58 @@
+@mixin displayFlexAC {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+:root{
+    color:antiquewhite;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    @include displayFlexAC()
+}
+@mixin displayFlexJC {
+  display: flex;
+  justify-content: center;
+}
+@mixin displayFlexRow{
+    display:flex;
+    flex-direction: row;
+}
+.home-text {
+  font: 2rem "Fredoka One", cursive;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 10px;
+  margin-bottom: 150px;
+}
+.home-picture {
+  width: 100vw;
+  overflow-x: scroll;
+  height: 100%;
+}
+.home-profile-image{
+    border-radius: 50%;
+    padding: 10px;
+    height: 30rem;
+    width: 30rem;
+}
+.about {
+    padding: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.about-text{
+    margin-top: 100px;
+}
+.summary {
+    margin-bottom: 100px;
+}
+.about-picture{
+    object-fit: cover;
+    height: 150vh;
+    width: 40vw;
+    mix-blend-mode: luminosity;
+    padding: 50px;
+    border-radius: 50%;
+}
