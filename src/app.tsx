@@ -1,4 +1,3 @@
-import "../public/style.scss";
 import React from "react";
 import Home from "./components/home";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
