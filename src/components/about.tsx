@@ -18,15 +18,13 @@ const About: React.FC = () => {
       <div className="about">
         <Element name="About">
           <div className="about-text">
-            <Typography variant="h4">About</Typography>
+            <Typography variant="h3">About</Typography>
             <hr />
             <div className="summary">
-              <Typography variant="h6">
-                {personalData.about}
-              </Typography>
+              <Typography variant="h6">{personalData.about}</Typography>
             </div>
-            <Typography variant="h4">Work Experience</Typography>
-            <hr/>
+            <Typography variant="h3">Work Experience</Typography>
+            <hr />
             <Timeline align="alternate">
               <div className="work">
                 {resume &&
@@ -52,7 +50,25 @@ const About: React.FC = () => {
                     );
                   })}
               </div>
+              <hr />
             </Timeline>
+          </div>
+          <div className='education'>
+            <Typography variant="h3">Education</Typography>
+            <hr />
+            {resume.education.map((school, idx) => {
+              return (
+                <div key={idx} className='school'>
+                  <img src={school.image} alt={school.image} height={300} width={500}/>
+                  <div className={'schoolInfo'}>
+                  <Typography variant="h4">{school.school}</Typography>
+                  <Typography variant="h5">{school.degree}</Typography>
+                  <Typography variant="h5">{school.graduated}</Typography>
+                  <Typography variant="h6">{school.description}</Typography>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </Element>
       </div>

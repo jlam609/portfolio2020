@@ -5,6 +5,7 @@ import Home from "./components/home";
 import { Background, Parallax } from "react-parallax";
 import Navbar from "./components/navbar";
 import About from "./components/about";
+import Skills from "./components/skills";
 
 const App: React.FC = () => {
   return (
@@ -25,6 +26,14 @@ const App: React.FC = () => {
         className="home-picture"
       >
         <About />
+      </Parallax>
+      <Parallax
+        strength={300}
+        bgImage="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"
+        bgImageAlt="background2"
+        className="home-picture"
+      >
+        <Skills />
       </Parallax>
     </div>
   );
