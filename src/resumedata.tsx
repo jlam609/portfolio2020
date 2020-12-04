@@ -188,7 +188,7 @@ const resume = {
       },
       {
         name: "Redux",
-        image: "https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png"
+        image: "https://img2.pngio.com/redux-react-npm-state-management-png-573x572px-redux-area-redux-png-290_290.jpg"
       },
       {
         name: "Redis",
@@ -221,7 +221,7 @@ const resume = {
         role: "Co-Founder",
         category:
           "Freelance market application for litter jobs created using React, GoogleMaps, Sockets.io, Postgres, Typescript, AWS, Stripe, etc.",
-        image: "whatsapp-mern.jpeg",
+        image: "https://i.ibb.co/B4grMjC/Screen-Shot-2020-12-04-at-1-13-36-PM.png",
         github: "https://github.com/SkrapLitter/capstone",
         url: "https://skraplitter.herokuapp.com",
       },
@@ -230,7 +230,7 @@ const resume = {
         role: "Lead-Developer",
         category:
           "Created a product recommendation system for patients built using React, Wit.ai, Messenger API, Send API, and drug database Apis",
-        image: "tiktok-mern.jpeg",
+        image: "https://i.ibb.co/7JCjdvs/Screen-Shot-2020-12-04-at-1-15-28-PM.png",
         github: "https://github.com/jlam609/pharmbot",
         url: "https://pharmbotrx.herokuapp.com",
       },
@@ -239,15 +239,15 @@ const resume = {
         role: "Lead-Developer",
         category:
           "Built a fantasy gaming store using React, Postgres, Sequelize, Redux, Stripe, etc",
-        image: "facebook-clone.png",
+        image: "https://i.ibb.co/svKfhZp/Tack-s-Store.png",
         github: "https://github.com/ghostbusters-graceshoppers/graceshoppers",
         url: "https://graceshoppers-tacks-store.herokuapp.com",
       },
       {
-        title: "Hogwarts Dummy Clone",
+        title: "Hogwarts-Clone",
         category:
           "Hogwarts school clone created using React, Express, Sequelize, Postgres",
-        image: "airbnb-clone.jpeg",
+        image: "https://i.ibb.co/wWmXw7t/Screen-Shot-2020-12-04-at-1-14-53-PM.png",
         github: "https://github.com/jlam609/hogwarts-junior-project",
         url: "https://hogwartsdummy.herokuapp.com",
       },

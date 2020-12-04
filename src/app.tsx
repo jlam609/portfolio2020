@@ -6,6 +6,8 @@ import { Background, Parallax } from "react-parallax";
 import Navbar from "./components/navbar";
 import About from "./components/about";
 import Skills from "./components/skills";
+import Contact from "./components/contact";
+import Portfolio from "./components/portfolio";
 
 const App: React.FC = () => {
   return (
@@ -34,6 +36,22 @@ const App: React.FC = () => {
         className="home-picture"
       >
         <Skills />
+      </Parallax>
+      <Parallax
+        strength={300}
+        bgImage="https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Stars-Nature-Landscape-Simple-Background-Image.jpg"
+        bgImageAlt="background2"
+        className="home-picture"
+      >
+        <Portfolio />
+      </Parallax>
+      <Parallax
+        strength={300}
+        bgImage="https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app05.jpg"
+        bgImageAlt="background2"
+        className="home-picture"
+      >
+        <Contact />
       </Parallax>
     </div>
   );

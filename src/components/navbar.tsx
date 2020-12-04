@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
         <Link
           className="link"
           activeClass="active"
-          to="Work"
+          to="Projects"
           spy={true}
           smooth={true}
           offset={-70}
