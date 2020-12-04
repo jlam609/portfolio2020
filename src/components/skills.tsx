@@ -33,7 +33,7 @@ const Skills: React.FC = () => {
             <div className="middle">
               <div className="skillsTable">
                 <Typography variant="h4">Frameworks</Typography>
-                <hr />
+                <Divider />
                 <ul>
                   {resume.skills.frameworks.map((skill, idx) => {
                     return (
