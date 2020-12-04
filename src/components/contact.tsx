@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import { IconButton, TextField, Tooltip, Typography } from "@material-ui/core";
 import { Element } from "react-scroll";
 import EmailIcon from "@material-ui/icons/Email";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import emailjs, { init } from "emailjs-com";
 init("user_lw12oTK6jtgR5nTgqg1Ny");
+
+toast.configure()
 
 const Contact: React.FC = () => {
   const [name, setName] = useState("");
@@ -20,7 +24,13 @@ const Contact: React.FC = () => {
         message,
       })
       .then((response) => {
-        console.log(response.status, response.text);
+        if (response.status == 200) {
+          toast("Email Sent Succesfully!", { type: "success" });
+          setName("");
+          setSubject("");
+          setEmail("");
+          setMessage("");
+        }
       })
       .catch((e) => console.error(e));
   };
