@@ -14,23 +14,18 @@ const personalData = {
   },
   website: "http://lam-portfolio.herokuapp.com/",
   resumedownload: "https://drive.google.com/drive/u/0/my-drive",
-  social: [
-    {
-      name: "facebook",
+  facebook: {
       url: "https://www.facebook.com/jlam609/",
-      className: "fa fa-facebook",
     },
-    {
-      name: "linkedin",
+  linkedIn: {
       url: "https://www.linkedin.com/in/jason-lam-290a0026/",
-      className: "fa fa-linkedin",
     },
-    {
-      name: "github",
+  github: {
       url: "http://github.com/jlam609",
-      className: "fa fa-github",
     },
-  ],
+  instagram: {
+    url: "https://www.instagram.com/jayandsylv/"
+  }
 };
 
 const resume = {

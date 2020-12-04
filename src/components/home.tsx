@@ -1,7 +1,12 @@
 import React from "react";
-import { Typography } from "@material-ui/core";
+import { IconButton, Tooltip, Typography } from "@material-ui/core";
 import ReactTypingEffect from "react-typing-effect";
 import { LightSpeed } from "react-reveal";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import InstagramIcon from '@material-ui/icons/Instagram';
+import { personalData } from "../resumedata";
 
 const Home: React.FC = () => {
   return (
@@ -12,9 +17,9 @@ const Home: React.FC = () => {
           alt="profile"
           className="home-profile-image"
         />
-        <Typography variant="h3">HELLO</Typography>
-        <Typography variant="h3">I AM JASON LAM</Typography>
-        <Typography variant="h3">
+        <Typography variant="h4">HELLO</Typography>
+        <Typography variant="h4">I AM JASON LAM</Typography>
+        <Typography variant="h4">
           <ReactTypingEffect
             text="FULLSTACK DEVELOPER & PHARMACIST"
             speed="100"
@@ -22,6 +27,36 @@ const Home: React.FC = () => {
             typingDelay="1500"
           />
         </Typography>
+        <div className="home-bar">
+          <Tooltip title="Link To Facebook">
+            <a href={personalData.facebook.url}>
+              <IconButton>
+                <FacebookIcon fontSize="large" />
+              </IconButton>
+            </a>
+          </Tooltip>
+          <Tooltip title="Link To LinkedIn">
+          <a href={personalData.linkedIn.url}>
+            <IconButton>
+              <LinkedInIcon fontSize="large" />
+            </IconButton>
+            </a>
+          </Tooltip>
+          <Tooltip title="Link To Github">
+          <a href={personalData.github.url}>
+            <IconButton>
+              <GitHubIcon fontSize="large" />
+            </IconButton>
+            </a>
+          </Tooltip>
+          <Tooltip title="Link To Instagram">
+          <a href={personalData.instagram.url}>
+            <IconButton>
+              <InstagramIcon fontSize="large" />
+            </IconButton>
+            </a>
+          </Tooltip>
+        </div>
       </div>
     </LightSpeed>
   );
