@@ -3,12 +3,16 @@ import HomeIcon from "@material-ui/icons/Home";
 import WorkIcon from "@material-ui/icons/Work";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
+import StarIcon from '@material-ui/icons/Star';
 import { Link, Element } from "react-scroll";
+import { AppBar, Tooltip } from "@material-ui/core";
 
 const Navbar: React.FC = () => {
   return (
     <Element name="Home">
-      <nav>
+      <AppBar>
+      <div className='Navbar'>
+        <Tooltip title='Home'>
         <Link
           className="link"
           activeClass="active"
@@ -18,8 +22,10 @@ const Navbar: React.FC = () => {
           duration={500}
           to="Home"
         >
-          Home <HomeIcon />
+          <HomeIcon />
         </Link>
+        </Tooltip>
+        <Tooltip title='About'>
         <Link
           className="link"
           activeClass="active"
@@ -29,8 +35,23 @@ const Navbar: React.FC = () => {
           offset={-70}
           duration={500}
         >
-          About <AccountCircleIcon />
+          <AccountCircleIcon />
         </Link>
+        </Tooltip>
+        <Tooltip title='Skills'>
+        <Link
+          className="link"
+          activeClass="active"
+          to="Skills"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <StarIcon />
+        </Link>
+        </Tooltip>
+        <Tooltip title='Projects'>
         <Link
           className="link"
           activeClass="active"
@@ -40,8 +61,10 @@ const Navbar: React.FC = () => {
           offset={-70}
           duration={500}
         >
-          Work <WorkIcon />
+          <WorkIcon />
         </Link>
+        </Tooltip>
+        <Tooltip title='Contact'>
         <Link
           className="link"
           activeClass="active"
@@ -51,9 +74,11 @@ const Navbar: React.FC = () => {
           offset={-70}
           duration={500}
         >
-          Contact <ContactMailIcon />
+          <ContactMailIcon />
         </Link>
-      </nav>
+        </Tooltip>
+        </div>
+      </AppBar>
     </Element>
   );
 };

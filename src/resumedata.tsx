@@ -245,6 +245,7 @@ const resume = {
       },
       {
         title: "Hogwarts-Clone",
+        role: "Lead-Developer",
         category:
           "Hogwarts school clone created using React, Express, Sequelize, Postgres",
         image: "https://i.ibb.co/wWmXw7t/Screen-Shot-2020-12-04-at-1-14-53-PM.png",

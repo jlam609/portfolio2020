@@ -14,7 +14,7 @@ const App: React.FC = () => {
     <div>
       <Parallax
         strength={300}
-        bgImage="https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-1300x500.jpeg"
+        bgImage="https://img.freepik.com/free-photo/christmas-background-with-falling-snow-snowflake-holiday-winter-merry-christmas-happy-new-year_52701-32.jpg?size=626&ext=jpg"
         bgImageAlt="background1"
         className="home-picture"
       >
@@ -23,7 +23,7 @@ const App: React.FC = () => {
       </Parallax>
       <Parallax
         strength={300}
-        bgImage="https://img.freepik.com/free-photo/room-with-concrete-floor-smoke-background_9083-2991.jpg?size=626&ext=jpg"
+        bgImage="https://wallpaperset.com/w/full/a/a/2/39599.jpg"
         bgImageAlt="background2"
         className="home-picture"
       >
@@ -31,7 +31,7 @@ const App: React.FC = () => {
       </Parallax>
       <Parallax
         strength={300}
-        bgImage="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"
+        bgImage="https://lh3.googleusercontent.com/proxy/VxJcVGVcrKflS4gzf2zZxOrLQdBKrJ2pSUfjcaOpnQRCdj7crfesuukEbTAfcnM5nT4fFjCipBo3yodHG5JInIks_ZglKDV2dkSZS4eUc7fL5uN-kO8gyQ"
         bgImageAlt="background2"
         className="home-picture"
       >
@@ -39,7 +39,7 @@ const App: React.FC = () => {
       </Parallax>
       <Parallax
         strength={300}
-        bgImage="https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Stars-Nature-Landscape-Simple-Background-Image.jpg"
+        bgImage="https://media.istockphoto.com/photos/wooden-table-with-orange-leaves-autumn-background-picture-id1029169532?k=6&m=1029169532&s=612x612&w=0&h=dmCmKfq4cdC1QGTcFpKpkGXrVszlDz1FyWpP4-UtYXI="
         bgImageAlt="background2"
         className="home-picture"
       >
@@ -47,7 +47,7 @@ const App: React.FC = () => {
       </Parallax>
       <Parallax
         strength={300}
-        bgImage="https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app05.jpg"
+        bgImage="https://static.vecteezy.com/system/resources/previews/000/153/503/non_2x/vector-grunge-air-mail-background.jpg"
         bgImageAlt="background2"
         className="home-picture"
       >

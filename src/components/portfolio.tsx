@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, IconButton, Tooltip, Typography } from "@material-ui/core";
+import { IconButton, Tooltip, Typography } from "@material-ui/core";
 import { resume } from "../resumedata";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkIcon from "@material-ui/icons/Link";
@@ -11,14 +11,15 @@ const Portfolio: React.FC = () => {
     <Roll>
       <Element name="Projects">
         <div className="portfolio">
-          <Typography variant="h3">Projects</Typography>
-          <Divider />
+          <Typography variant="h3">Projects
+          <hr className='portfolio-divider'/>
+          </Typography>
           <div className="portfolio-container">
             {resume.portfolio.projects.map((project, idx) => {
               return (
                 <div key={idx} className="portfolio-project">
                   <Typography variant="h4">{project.title}</Typography>
-                  <Divider/>
+                  <hr className='portfolio-divider'/>
                   <img
                     className="portfolio-picture"
                     src={project.image}
