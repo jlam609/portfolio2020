@@ -4,11 +4,11 @@ import { resume } from "../resumedata";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkIcon from "@material-ui/icons/Link";
 import { Element } from "react-scroll";
-import { Roll } from "react-reveal";
+import { Fade } from "react-reveal";
 
 const Portfolio: React.FC = () => {
   return (
-    <Roll>
+    <Fade>
       <Element name="Projects">
         <div className="portfolio">
           <Typography variant="h3">Projects
@@ -49,7 +49,7 @@ const Portfolio: React.FC = () => {
           </div>
         </div>
       </Element>
-    </Roll>
+    </Fade>
   );
 };
 

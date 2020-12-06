@@ -59,7 +59,7 @@ const About: React.FC = () => {
             {resume.education.map((school, idx) => {
               return (
                 <div key={idx} className='school'>
-                  <img src={school.image} alt={school.image} height={300} width={500}/>
+                  <img src={school.image} alt={school.image} className='school-image'/>
                   <div className={'schoolInfo'}>
                   <Typography variant="h4">{school.school}</Typography>
                   <Typography variant="h5">{school.degree}</Typography>

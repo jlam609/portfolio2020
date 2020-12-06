@@ -25,6 +25,7 @@ const Home: React.FC = () => {
             speed="100"
             eraseDelay="500000"
             typingDelay="1500"
+            className = 'home-text-effect'
           />
         </Typography>
         <div className="home-bar">
