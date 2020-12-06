@@ -57,20 +57,21 @@
 .about {
     display: flex;
     flex-direction: row;
-    padding:90px;
+    padding:9vw;
 }
 .about-text{
-    margin-top: 100px;
+    margin-top: 10vw;
+    padding:3vw
 }
 .summary {
-    margin-bottom: 100px;
+    margin-bottom: 10vw;
 }
 .about-picture{
     object-fit: cover;
     height: 150vh;
     width: 40vw;
     mix-blend-mode: luminosity;
-    padding: 50px;
+    padding: 5vh;
     border-radius: 50%;
 }
 .work {
@@ -139,7 +140,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding:90px;
+  padding:10vh;
 }
 .portfolio-container{
   display: flex;
@@ -190,5 +191,8 @@
   .education{
     width: 90vw;
     padding: 1vw;
+  }
+  .portfolio{
+    width: 90vw;
   }
 }

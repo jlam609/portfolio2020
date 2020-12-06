@@ -31,7 +31,7 @@ const App: React.FC = () => {
       </Parallax>
       <Parallax
         strength={300}
-        bgImage="https://lh3.googleusercontent.com/proxy/VxJcVGVcrKflS4gzf2zZxOrLQdBKrJ2pSUfjcaOpnQRCdj7crfesuukEbTAfcnM5nT4fFjCipBo3yodHG5JInIks_ZglKDV2dkSZS4eUc7fL5uN-kO8gyQ"
+        bgImage="https://i.pinimg.com/originals/c6/da/03/c6da0308991deed3af22d92065242a08.jpg"
         bgImageAlt="background2"
         className="home-picture"
       >
@@ -39,7 +39,7 @@ const App: React.FC = () => {
       </Parallax>
       <Parallax
         strength={300}
-        bgImage="https://media.istockphoto.com/photos/beach-summer-background-picture-id1140992203?k=6&m=1140992203&s=612x612&w=0&h=LzOrsrxM8orw7K0fgJMMVhUQHUf2MYGlm3Wz-xAHbYQ="
+        bgImage="https://media.istockphoto.com/photos/wooden-table-with-orange-leaves-autumn-background-picture-id1029169532?k=6&m=1029169532&s=612x612&w=0&h=dmCmKfq4cdC1QGTcFpKpkGXrVszlDz1FyWpP4-UtYXI="
         bgImageAlt="background2"
         className="home-picture"
       >
