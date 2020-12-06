@@ -140,7 +140,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding:10vh;
+  padding:10vw;
 }
 .portfolio-container{
   display: flex;
@@ -194,5 +194,6 @@
   }
   .portfolio{
     width: 90vw;
+    margin-left: 5vw;
   }
 }
