@@ -236,7 +236,7 @@ const resume = {
           "Built a fantasy gaming store using React, Postgres, Sequelize, Redux, Stripe, etc",
         image: "https://i.ibb.co/svKfhZp/Tack-s-Store.png",
         github: "https://github.com/ghostbusters-graceshoppers/graceshoppers",
-        url: "https://graceshoppers-tacks-store.herokuapp.com",
+        url: "https://graceshopper-tacks-store.herokuapp.com/home",
       },
       {
         title: "Hogwarts-Clone",
