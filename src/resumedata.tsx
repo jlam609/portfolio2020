@@ -225,7 +225,7 @@ const resume = {
         role: "Lead-Developer",
         category:
           "Created a product recommendation system for patients built using React, Wit.ai, Messenger API, Send API, and drug database Apis",
-        image: "https://i.ibb.co/7JCjdvs/Screen-Shot-2020-12-04-at-1-15-28-PM.png",
+        image: "https://i.ibb.co/y4mfHvM/Screen-Shot-2021-04-09-at-3-29-02-PM.png",
         github: "https://github.com/jlam609/pharmbot",
         url: "https://pharmbotrx.herokuapp.com",
       },
